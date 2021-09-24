@@ -1,8 +1,7 @@
 
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+
+For more informations, check the manual or the readme PDF file.
 
 ## Installation
 
