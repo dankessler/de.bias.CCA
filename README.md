@@ -1,7 +1,6 @@
 
 
-
-For more informations, check the manual or the readme PDF file.
+Here is a brief introduction to our package. For more information on how the package works, check the manual or the readme PDF file.
 
 ## Installation
 
