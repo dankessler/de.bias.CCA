@@ -1,40 +1,4 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@nilanjanalaha 
-nilanjanalaha
-/
-de.bias.CCA
-Public
-1
-00
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-More
-de.bias.CCA/Readme_de_bias.Rmd
-@nilanjanalaha
-nilanjanalaha First commit
-Latest commit 030622f 17 minutes ago
- History
- 1 contributor
-77 lines (60 sloc)  2.38 KB
-   
----
-title: "De-bias CCA"
-author: "Nilanjana laha"
-date: "9/24/2021"
-output: pdf_document
----
+
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
