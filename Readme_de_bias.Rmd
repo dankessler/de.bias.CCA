@@ -21,7 +21,7 @@ library(de.bias.cca)
 
 Although de.bias.CCA installs ``CVXR", it is recommended to install it if necessary, and load it prior to using ``de.bias.CCA".
 
-```{r extra, include=FALSE}
+```{r extra, echo=TRUE}
 library(CVXR)
 ```
 
