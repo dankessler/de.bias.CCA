@@ -1,0 +1,5 @@
+exportPattern("^[[:alpha:]]+")
+importFrom(Matrix,Matrix)
+importFrom(Matrix,t)
+importFrom("stats", "cov")
+importFrom(magrittr,"%>%")

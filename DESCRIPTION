@@ -1,0 +1,26 @@
+Package: de.bias.cca
+Type: Package
+Title: BIAS CORRECTION OF SCCA CANONICAL DIRECTIONS
+Version: 0.1.0
+Authors@R: c(person("Nathan", "Huey", role="aut", email = "nhuey@g.harvard.edu"),person("Nilanjana", "Laha", role = c("aut", "cre"), email ="nlaha@hsph.harvard.edu"))
+Maintainer: Nilanjana Laha <nlaha@hsph.harvard.edu>
+Description: Given  sparse estimator of the leading canonical correlation directions (SCCA), this package performs a de-biasing procedure. The bias-correction targets to correct the first order bias of the SCCA estimators under concern. The de-biasing procedure is as discussed in Laha et al. (2021).
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+	MASS,
+        glmnet,
+        pls,
+        CCA,
+        CVXR,
+        quadprog,
+        magrittr,
+        olpsR,
+        stats,
+        mvtnorm,
+        parallel,
+        dplyr,
+        Matrix,
+        methods
+RoxygenNote: 7.1.0
