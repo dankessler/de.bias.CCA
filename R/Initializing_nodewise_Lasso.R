@@ -24,13 +24,13 @@ opt_init <- function(l,lam)
 {
   A <- give_approx(l[[1]])
   b <- l[[2]]
-  x <- Variable(length(b))
+  x <- CVXR::Variable(length(b))
 
-  obj <- sum(quad_form(x,A),-t(b)%*%x,lam*abs(x))
-  prob <- Problem(Minimize(obj))
+  obj <- sum(CVXR::quad_form(x,A),-t(b)%*%x,lam*abs(x))
+  prob <- CVXR::Problem(CVXR::Minimize(obj))
 
   # Here we do not have the constraint because we have a convex program
-  result <- solve(prob)
+  result <- CVXR::solve(prob)
 
   val <- result$value # Optimal objective
   gamma <- result$getValue(x) # Optimal variables
